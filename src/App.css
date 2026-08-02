@@ -1,0 +1,14 @@
+.data{
+    border-style:solid;
+    color:blue;
+    background-color: #5e0bf9;
+    padding: 20px;
+    padding-bottom: 50px;
+    display: inline-block;
+    text-align: left;
+    width:fit-content;
+    gap: 20px;
+    padding: 20px;
+    margin-right: 20px;
+
+}

@@ -1,0 +1,25 @@
+.com{
+    background-color: antiquewhite;
+    width: fit-content;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.com img{
+    width: 300px;
+}
+.com h2{
+    color:brown;
+    text-align: center;
+    
+}
+.com p{
+    color:blue;
+    text-align: center;
+}
+.com button{
+    text-align: center;
+    background-color: orange;
+    border-radius: 30px;
+    cursor: pointer;;
+}
