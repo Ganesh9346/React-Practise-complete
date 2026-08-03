@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useInsertionEffect, useState } from "react";
 const Counter=()=>{
     const [count,countValue]=useState(0);
     const increase=()=>{
@@ -10,6 +10,7 @@ const Counter=()=>{
     const zero=()=>{
             countValue(0);
     }
+    console.log("App is running");    
     return(
         <>
         <p>{count}</p>

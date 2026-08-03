@@ -14,6 +14,7 @@ const Toggle=()=>{
     return (
         <div style={{backgroundColor:color, height:"100vh"}}>
             <button onClick={changeColor}>Click to {color=="white"?"black":"white"}</button>
+            <p>{color=="white"?"black":"white"}</p>
         </div>
 
     );
